@@ -23,13 +23,13 @@ const sendEmail = async (email, password) => {
     const transporter = nodemailer.createTransport({
         service: 'gmail', 
         auth: {
-            user: process.env.EMAIL_USER, 
-            pass: process.env.EMAIL_PASS 
+            user: 'shashinagar294@gmail.com', 
+            pass: 'trujybecuawfclpn'
         }
     });
 
     const mailOptions = {
-        from: process.env.EMAIL_USER,
+        from: 'shashinagar294@gmail.com',
         to: email,
         subject: 'Your Account Password',
         text: `Your password is ${password}`,
