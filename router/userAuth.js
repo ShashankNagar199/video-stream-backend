@@ -24,7 +24,7 @@ const sendEmail = async (email, password) => {
         service: 'gmail', 
         auth: {
             user: 'shashinagar294@gmail.com', 
-            pass: 'trujybecuawfclpn'
+             pass: 'trujybecuawfclpn'
         }
     });
 
